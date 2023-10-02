@@ -4,15 +4,16 @@ body {
     background: scroll;
        margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    color: #505050;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #221f1f;
 }
 
 
 /* Header Styles */
 header {
-    background: linear-gradient(301deg, #7676c7, #000);
-    color: #fff;
+    background: linear-gradient(301deg, #d3b066, #f3c794);
+    color: #1d1919;
     text-align: center;
     padding: 20px;
 }
@@ -34,13 +35,20 @@ header {
 
 
 /* Navigation Styles */
+nav {
+    position: sticky;
+    top: 0;
+}
 nav ul {
-    background-color: #333;
-    color: #fff;
+    background-color: #3f889b;
+    color: #ffffff;
     text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 20px;
+    font-size: larger;
+    font-weight: bolder;
+   
 }
 
 nav li {
@@ -49,7 +57,8 @@ nav li {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #ffffff;
+    font-size: larger;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -103,8 +112,8 @@ main h3 {
 }
 
 .service-column {
-    flex-basis: calc(25% - 20px);
-    max-width: calc(25% - 20px);
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +121,7 @@ main h3 {
 }
 
 .service-column img {
-    width: 180px;
+    width: 250px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -140,18 +149,24 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #f7f7f7;
     margin-top: 30px;
+    border-style:groove
+    
 
+}
+.cta-container p{
+    font-size: larger;
+    font-weight: lighter;
 }
 
 .cta-button {
    display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #191c20;
     color: #ffffff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-weight: bold;
     margin-top: 15px;
     transition: background-color 0.3s;
